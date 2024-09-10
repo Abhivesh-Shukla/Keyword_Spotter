@@ -1,4 +1,4 @@
-# KEYWORD SPOTTER
+# Keyword Spotter
 
 This project extracts the table of contents (TOC) from a PDF and identifies chapters and sections using regular expressions. It parses the PDF and logs the TOC, making it easier to navigate through the document.
 
