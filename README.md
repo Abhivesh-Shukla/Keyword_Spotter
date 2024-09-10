@@ -1,4 +1,4 @@
-# PDF Table of Contents Extractor
+# KEYWORD SPOTTER
 
 This project extracts the table of contents (TOC) from a PDF and identifies chapters and sections using regular expressions. It parses the PDF and logs the TOC, making it easier to navigate through the document.
 
@@ -51,3 +51,10 @@ const sectionPattern = /(?:CHAPTER\s+\d+:\s+[^\n]+|^[A-Z][^\n]*$)/gm;
   ```
 
 ### Dependencies
+- pdf-parse: A Node.js module to extract text from PDF files.
+ ```bash
+  npm install pdf-parse
+  ```
+
+### Contributing
+Contributions are welcome! Please submit a pull request or create an issue if you have ideas for improvements or bugs to report.
